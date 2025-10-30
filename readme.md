@@ -1,5 +1,8 @@
 # Indies on Solana
 
+<img width="1344" height="768" alt="indies solana game" src="https://github.com/user-attachments/assets/6c618985-5cd2-44bd-98a1-d001234e3d1c" />
+
+
 A full-stack realtime Solana-integrated arena demo with:
 
 - Anchor program (match creation, purchases, settlement, events)
