@@ -1,0 +1,30 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Builds
+/dist/
+/build/
+/server/dist/
+/client/dist/
+/overlay/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Env
+.env
+server/.env
+client/.env
+overlay/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,22 @@
+{
+  "name": "coin-wars-3d",
+  "version": "1.0.0",
+  "description": "3D Live Arena Shooter with Solana blockchain integration for viewer interactions",
+  "main": "server/src/index.ts",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": ["solana", "blockchain", "gaming", "3d", "multiplayer", "streaming"],
+  "author": "Indies On Solana",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.3"
+  }
+}
