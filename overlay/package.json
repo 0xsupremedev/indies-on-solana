@@ -1,0 +1,14 @@
+{
+  "name": "indies-overlay",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.jsx",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "echo 'Set up react-scripts or bundler as needed'"
+  }
+}

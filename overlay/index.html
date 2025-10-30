@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Wars 3D - Stream Overlay</title>
+    <link rel="stylesheet" href="overlay.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="overlay-container">
+        <!-- Top Spenders Panel -->
+        <div class="panel top-spenders">
+            <h3>TOP SPENDERS</h3>
+            <div class="leaderboard" id="leaderboard">
+                <div class="loading">Loading...</div>
+            </div>
+        </div>
+
+        <!-- Recent Actions Panel -->
+        <div class="panel recent-actions">
+            <h3>VIEWER ACTIONS</h3>
+            <div class="actions-feed" id="actionsFeed">
+                <div class="loading">Waiting for actions...</div>
+            </div>
+        </div>
+
+        <!-- Game Stats -->
+        <div class="panel game-stats">
+            <div class="stat">
+                <span class="label">ROUND:</span>
+                <span class="value" id="roundNumber">1</span>
+            </div>
+            <div class="stat">
+                <span class="label">PLAYERS:</span>
+                <span class="value" id="playerCount">0</span>
+            </div>
+            <div class="stat">
+                <span class="label">EFFECTS:</span>
+                <span class="value" id="effectCount">0</span>
+            </div>
+        </div>
+    </div>
+    <div id="react-overlay-root"></div>
+    <script src="overlay.js"></script>
+</body>
+</html>
